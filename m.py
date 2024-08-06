@@ -10,9 +10,9 @@ from keep_alive import keep_alive
 keep_alive()
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('TOKEM')
+bot = telebot.TeleBot('6775242061:AAFzhh8pOomG6qHCd-lY0QV763urQ7zhueA')
 # Admin user IDs
-admin_id = {"5588464519"}
+admin_id = {"5816432312"}
 
 # Files for data storage
 USER_FILE = "users.json"
@@ -22,7 +22,7 @@ KEY_FILE = "keys.json"
 # Cooldown settings
 COOLDOWN_TIME = 0  # in seconds
 CONSECUTIVE_ATTACKS_LIMIT = 2
-CONSECUTIVE_ATTACKS_COOLDOWN = 240  # in seconds
+CONSECUTIVE_ATTACKS_COOLDOWN = 1000  # in seconds
 
 # In-memory storage
 users = {}
